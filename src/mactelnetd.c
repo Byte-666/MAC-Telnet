@@ -21,6 +21,7 @@
 #define _XOPEN_SOURCE 600
 #define _BSD_SOURCE
 #define _DARWIN_C_SOURCE
+#define __BSD_VISIBLE 1
 #include <locale.h>
 #include <stdlib.h>
 #include <stdio.h>
